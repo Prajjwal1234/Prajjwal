@@ -26,13 +26,15 @@ public enum Furniture {
 	 * @return The plain text name of the furniture
 	 */
 	public String label() {
-		return this.label;
+		return null;
 	}
 
 	/**
 	 * @return The furniture's cost
 	 */
 	public float cost() {
-		return this.cost;
+		return -1.0f;
 	}
+}
+
 }
